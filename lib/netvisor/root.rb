@@ -1,4 +1,4 @@
-require 'happymapper'
+require 'nokogiri-happymapper'
 require 'netvisor/sales_invoice'
 
 module Netvisor
