@@ -31,7 +31,7 @@ EOF
 
   spec.add_runtime_dependency 'faraday', '~> 0.9'
   spec.add_runtime_dependency 'system_timer', '~> 1.2.4' if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('1.9')
-  spec.add_runtime_dependency 'nokogiri-happymapper', '0.8.0'
+  spec.add_runtime_dependency 'nokogiri-happymapper', '>=0.8.0'
   spec.add_runtime_dependency 'nokogiri', '~> 1.10.1'
   spec.add_runtime_dependency 'logging'
 end
